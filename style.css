@@ -1,0 +1,198 @@
+body{
+    background: url(sele.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sing{
+    width: 550px;
+    background: transparent;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 0 0 200px rgb(0, 0, 0), 0 0 200px rgb(0, 0, 0), 0 0 200px rgb(5, 5, 5);
+    position: fixed;
+    top: 12%;
+    right: 10%;
+    display: flex;
+    transition: all 10s ease;
+    
+   
+  }
+  .sing h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .controls{
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #46ffce;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .sing p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .sing a{
+    color: white;
+    text-decoration: none;
+  }
+  .sing a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  .sing .botons{
+    width: 100%;
+    background: 1px #2caa80;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
+  .sing2{
+    width: 600px;
+    height: 470px;
+    background: transparent;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 0 0 200px rgb(0, 0, 0), 0 0 200px rgb(0, 0, 0), 0 0 200px rgb(5, 5, 5);
+    position: fixed;
+    top: 11%;
+    right: 55%;
+  }
+
+  .menu{
+    display:  flex;
+  }
+  .menu li{
+    list-style: none;
+    margin: 100px;
+  }
+  .menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .menu li a:hover{
+    padding: 50px 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 132, 255), 0 0 40px rgb(0, 204, 255), 0 0 80px rgb(0, 106, 255);
+    
+  } 
+  .menu  span{
+    position: absolute;
+    display: block;
+  }
+  .nav{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    transition: all 0.5s ease;
+    position: fixed;
+    left: 32%;
+    top: -10%;
+    font-size: 21px;
+    
+  }
+  .nav.active{
+    background-color: #8787877d;
+    color: rgb(0, 0, 0);
+  }
+
+  .sing3{
+    width: 388px;
+    height: 20px;
+    background: transparent;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 0 0 100px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0), 0 0 100px rgb(5, 5, 5);
+    position: fixed;
+    top: -5%;
+    right: 38%;
+    font-size: 32px;
+  }
+/*------------------------*/
+/*------------------------*/
+/*SELECCION: MOTO || CARRO*/
+/*------------------------*/
+/*------------------------*/
+
+
+
+  .menu1{
+    display:  flex;
+  }
+  .menu1 li{
+    list-style: none;
+    margin: 100px;
+  }
+  .menu1 li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .menu1 li a:hover{
+    padding: 10px 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 80px rgb(5, 5, 5);
+    border: #fff 2px solid;
+    
+  } 
+  .menu1  span{
+    position: absolute;
+    display: block;
+    
+  }
+  .nav1{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all 0.5s ease;
+    position: fixed;
+    left: 32%;
+    top: 70%;
+    font-size: 40px;
+    
+    
+    
+  }
+  .nav1.active{
+    background-color: #8787877d;
+    color: rgb(0, 0, 0);
+  }
